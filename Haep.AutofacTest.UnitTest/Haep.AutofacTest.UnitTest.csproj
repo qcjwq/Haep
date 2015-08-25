@@ -63,7 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutofacTest\Haep.AutofacTest.csproj">
+    <ProjectReference Include="..\Haep.AutofacTest\Haep.AutofacTest.csproj">
       <Project>{39f00c06-daeb-4048-b855-17420246afff}</Project>
       <Name>Haep.AutofacTest</Name>
     </ProjectReference>

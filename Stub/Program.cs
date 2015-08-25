@@ -10,6 +10,8 @@ namespace Stub
     {
         static void Main(string[] args)
         {
+
+            Console.ReadKey();
         }
     }
 }

@@ -37,9 +37,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 Build", "50 Build", "{25
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 Other", "60 Other", "{D6DFD292-AA5E-46AC-AC7F-AAEB6A3C9CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest", "AutofacTest\Haep.AutofacTest.csproj", "{39F00C06-DAEB-4048-B855-17420246AFFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest", "Haep.AutofacTest\Haep.AutofacTest.csproj", "{39F00C06-DAEB-4048-B855-17420246AFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest.UnitTest", "AutofacUnitTest\Haep.AutofacTest.UnitTest.csproj", "{1589653E-54C5-4E6B-A63B-F882192DD144}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest.UnitTest", "Haep.AutofacTest.UnitTest\Haep.AutofacTest.UnitTest.csproj", "{1589653E-54C5-4E6B-A63B-F882192DD144}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "Stub\Stub.csproj", "{E46E6E88-3AE0-4091-88EA-F484565E1A9C}"
 EndProject
