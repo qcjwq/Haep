@@ -1,4 +1,4 @@
-﻿namespace AutofacTest.Cycledependence
+﻿namespace Haep.AutofacTest.CycleDependence
 {
     public class ClassA
     {

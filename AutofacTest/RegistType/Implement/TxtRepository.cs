@@ -1,4 +1,4 @@
-﻿namespace AutofacTest.RegistType.Implement
+﻿namespace Haep.AutofacTest.RegistType.Implement
 {
     public class TxtRepository : IRepository
     {

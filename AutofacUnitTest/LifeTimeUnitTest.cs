@@ -1,9 +1,9 @@
 ﻿using Autofac;
 using Autofac.Util;
-using AutofacTest.RegistType.Implement;
+using Haep.AutofacTest.RegistType.Implement;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AutofacUnitTest
+namespace Haep.AutofacTest.UnitTest
 {
     /// <summary>
     /// AutoFac定义了三种生命周期：

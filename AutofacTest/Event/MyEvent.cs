@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AutofacTest.Event
+namespace Haep.AutofacTest.Event
 {
     public class MyEvent : IDisposable
     {

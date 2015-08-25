@@ -1,4 +1,4 @@
-﻿namespace AutofacTest.RegistType
+﻿namespace Haep.AutofacTest.RegistType
 {
     public interface IRepository
     {

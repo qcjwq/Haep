@@ -1,9 +1,9 @@
 ﻿using System;
 using Autofac;
-using AutofacTest.Event;
+using Haep.AutofacTest.Event;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AutofacUnitTest
+namespace Haep.AutofacTest.UnitTest
 {
     [TestClass]
     public class EventUnitTest

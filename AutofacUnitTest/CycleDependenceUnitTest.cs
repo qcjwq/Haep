@@ -1,11 +1,8 @@
-﻿using System.Security.AccessControl;
-using Autofac;
-using Autofac.Core;
-using Autofac.Core.Registration;
-using AutofacTest.Cycledependence;
+﻿using Autofac;
+using Haep.AutofacTest.CycleDependence;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AutofacUnitTest
+namespace Haep.AutofacTest.UnitTest
 {
     [TestClass]
     public class CycleDependenceUnitTest

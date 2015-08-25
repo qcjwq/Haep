@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Remoting;
 using Autofac;
-using Autofac.Builder;
-using Autofac.Core.Registration;
-using AutofacTest;
-using AutofacTest.RegistType;
-using AutofacTest.RegistType.Implement;
+using Haep.AutofacTest.RegistType;
+using Haep.AutofacTest.RegistType.Implement;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NSubstitute;
-using NSubstitute.Core;
 
-namespace AutofacUnitTest
+namespace Haep.AutofacTest.UnitTest
 {
     /// <summary>
     /// 注册部分
