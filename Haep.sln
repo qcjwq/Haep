@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 AOP", "20 AOP", "{2D196324-B2B2-4CC5-8C12-5465533F2F2E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 AOP", "30 AOP", "{2D196324-B2B2-4CC5-8C12-5465533F2F2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching", "Haep.AOP.Caching\Haep.AOP.Caching.csproj", "{4157F46A-3492-461C-9440-82AF3E5467DF}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding", "Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding.Implement", "Haep.AOP.ErrorHanding.Implement\Haep.AOP.ErrorHanding.Implement.csproj", "{EFC1401F-86F4-40A8-9DCF-AD02ADD29EE8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Core", "30 Core", "{6A2516E9-B7DA-492E-B7DC-C130FAEAF440}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 Core", "40 Core", "{6A2516E9-B7DA-492E-B7DC-C130FAEAF440}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 View", "1 View", "{5B3A19E7-2FA9-4EFD-8806-D43AA0115C3A}"
 EndProject
@@ -31,11 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Service", "4 Service", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 DAL", "5 DAL", "{97CA6DC1-C04A-4952-A6FE-3323CB21A856}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 API", "40 API", "{A01CC3B2-AC18-4F5D-918F-38C7E2CEB959}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 API", "50 API", "{A01CC3B2-AC18-4F5D-918F-38C7E2CEB959}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 Build", "50 Build", "{25492736-FBAC-46FA-B6F2-F7DC59C58F98}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 Build", "60 Build", "{25492736-FBAC-46FA-B6F2-F7DC59C58F98}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 Other", "60 Other", "{D6DFD292-AA5E-46AC-AC7F-AAEB6A3C9CDE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70 Other", "70 Other", "{D6DFD292-AA5E-46AC-AC7F-AAEB6A3C9CDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest", "Haep.AutofacTest\Haep.AutofacTest.csproj", "{39F00C06-DAEB-4048-B855-17420246AFFF}"
 EndProject
@@ -48,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding.Implement.UnitTest", "Haep.AOP.ErrorHanding.Implement.UnitTest\Haep.AOP.ErrorHanding.Implement.UnitTest.csproj", "{EA1638AF-5D77-415B-9CC1-93D57B991ACC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching.Implement.UnitTest", "Haep.AOP.Caching.Implement.UnitTest\Haep.AOP.Caching.Implement.UnitTest.csproj", "{8E1608C9-FF15-4605-BE38-8E150B1F87E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Haep", "20 Haep", "{7519A9EE-2268-4535-AEC0-BD2324B3EA61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
