@@ -5,19 +5,19 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 AOP", "30 AOP", "{2D196324-B2B2-4CC5-8C12-5465533F2F2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching", "Haep.AOP.Caching\Haep.AOP.Caching.csproj", "{4157F46A-3492-461C-9440-82AF3E5467DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching", "AOP\Haep.AOP.Caching\Haep.AOP.Caching.csproj", "{4157F46A-3492-461C-9440-82AF3E5467DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching.Implement", "Haep.AOP.Caching.Implement\Haep.AOP.Caching.Implement.csproj", "{C9329D71-15AA-4145-B4C0-AEF4D6A49109}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching.Implement", "AOP\Haep.AOP.Caching.Implement\Haep.AOP.Caching.Implement.csproj", "{C9329D71-15AA-4145-B4C0-AEF4D6A49109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Logging", "Haep.AOP.Logging\Haep.AOP.Logging.csproj", "{9998B8BB-F17B-42FC-8599-B4D653D5F7AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Logging", "AOP\Haep.AOP.Logging\Haep.AOP.Logging.csproj", "{9998B8BB-F17B-42FC-8599-B4D653D5F7AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Logging.Implement", "Haep.AOP.Logging.Implement\Haep.AOP.Logging.Implement.csproj", "{E241B226-BBD6-4648-B7E8-15BBBD625BBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Logging.Implement", "AOP\Haep.AOP.Logging.Implement\Haep.AOP.Logging.Implement.csproj", "{E241B226-BBD6-4648-B7E8-15BBBD625BBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 DebugTools", "10 DebugTools", "{4EB015A6-55BB-4B45-8401-78E6BBC23C33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding", "Haep.AOP.ErrorHanding\Haep.AOP.ErrorHanding.csproj", "{98589B69-ADBD-4798-B85B-0A4C6E5A6278}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding", "AOP\Haep.AOP.ErrorHanding\Haep.AOP.ErrorHanding.csproj", "{98589B69-ADBD-4798-B85B-0A4C6E5A6278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding.Implement", "Haep.AOP.ErrorHanding.Implement\Haep.AOP.ErrorHanding.Implement.csproj", "{EFC1401F-86F4-40A8-9DCF-AD02ADD29EE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding.Implement", "AOP\Haep.AOP.ErrorHanding.Implement\Haep.AOP.ErrorHanding.Implement.csproj", "{EFC1401F-86F4-40A8-9DCF-AD02ADD29EE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 Src", "40 Src", "{6A2516E9-B7DA-492E-B7DC-C130FAEAF440}"
 EndProject
@@ -37,21 +37,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 Build", "60 Build", "{25
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70 Other", "70 Other", "{D6DFD292-AA5E-46AC-AC7F-AAEB6A3C9CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest", "Haep.AutofacTest\Haep.AutofacTest.csproj", "{39F00C06-DAEB-4048-B855-17420246AFFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest", "Other\Haep.AutofacTest\Haep.AutofacTest.csproj", "{39F00C06-DAEB-4048-B855-17420246AFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest.UnitTest", "Haep.AutofacTest.UnitTest\Haep.AutofacTest.UnitTest.csproj", "{1589653E-54C5-4E6B-A63B-F882192DD144}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AutofacTest.UnitTest", "Other\Haep.AutofacTest.UnitTest\Haep.AutofacTest.UnitTest.csproj", "{1589653E-54C5-4E6B-A63B-F882192DD144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "Stub\Stub.csproj", "{E46E6E88-3AE0-4091-88EA-F484565E1A9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "DebugTools\Stub\Stub.csproj", "{E46E6E88-3AE0-4091-88EA-F484565E1A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Logging.Implement.UnitTest", "Haep.AOP.Logging.Implement.UnitTest\Haep.AOP.Logging.Implement.UnitTest.csproj", "{E8A54C97-FB26-4D4D-A112-4E7F2BC12C8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Logging.Implement.UnitTest", "UnitTest\Haep.AOP.Logging.Implement.UnitTest\Haep.AOP.Logging.Implement.UnitTest.csproj", "{E8A54C97-FB26-4D4D-A112-4E7F2BC12C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding.Implement.UnitTest", "Haep.AOP.ErrorHanding.Implement.UnitTest\Haep.AOP.ErrorHanding.Implement.UnitTest.csproj", "{EA1638AF-5D77-415B-9CC1-93D57B991ACC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.ErrorHanding.Implement.UnitTest", "UnitTest\Haep.AOP.ErrorHanding.Implement.UnitTest\Haep.AOP.ErrorHanding.Implement.UnitTest.csproj", "{EA1638AF-5D77-415B-9CC1-93D57B991ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching.Implement.UnitTest", "Haep.AOP.Caching.Implement.UnitTest\Haep.AOP.Caching.Implement.UnitTest.csproj", "{8E1608C9-FF15-4605-BE38-8E150B1F87E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.AOP.Caching.Implement.UnitTest", "UnitTest\Haep.AOP.Caching.Implement.UnitTest\Haep.AOP.Caching.Implement.UnitTest.csproj", "{8E1608C9-FF15-4605-BE38-8E150B1F87E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Core", "20 Core", "{7519A9EE-2268-4535-AEC0-BD2324B3EA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.Core", "Haep.Core\Haep.Core.csproj", "{EE5DE8A3-83F2-44BD-B3F7-51626B069D98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haep.Core", "Core\Haep.Core\Haep.Core.csproj", "{EE5DE8A3-83F2-44BD-B3F7-51626B069D98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
