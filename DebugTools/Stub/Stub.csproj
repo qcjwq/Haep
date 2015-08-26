@@ -48,6 +48,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Configs\Autofac.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AOP\Haep.AOP.ErrorHanding\Haep.AOP.ErrorHanding.csproj">
+      <Project>{98589B69-ADBD-4798-B85B-0A4C6E5A6278}</Project>
+      <Name>Haep.AOP.ErrorHanding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AOP\Haep.AOP.Logging\Haep.AOP.Logging.csproj">
+      <Project>{9998B8BB-F17B-42FC-8599-B4D653D5F7AE}</Project>
+      <Name>Haep.AOP.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Haep.Core\Haep.Core.csproj">
+      <Project>{EE5DE8A3-83F2-44BD-B3F7-51626B069D98}</Project>
+      <Name>Haep.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
