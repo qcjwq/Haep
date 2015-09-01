@@ -1,14 +1,14 @@
 ﻿using Autofac;
 using Autofac.Configuration;
 
-namespace Haep.Core
+namespace Haep.Core.IOC
 {
     public static class HaepContainer
     {
-        public static T Get<T>() where T : class
+        public static TService Get<TService>() where TService : class
         {
             var container = Builder.Build();
-            return container.Resolve<T>();
+            return container.Resolve<TService>();
         }
 
         private static ContainerBuilder Builder

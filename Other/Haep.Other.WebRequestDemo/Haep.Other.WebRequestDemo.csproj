@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E46E6E88-3AE0-4091-88EA-F484565E1A9C}</ProjectGuid>
+    <ProjectGuid>{A39CE9F0-6842-4596-97E1-4BB7ABDF448A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Stub</RootNamespace>
-    <AssemblyName>Stub</AssemblyName>
+    <RootNamespace>Haep.Other.WebRequestDemo</RootNamespace>
+    <AssemblyName>Haep.Other.WebRequestDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,30 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AOP\Haep.AOP.ErrorHanding\Haep.AOP.ErrorHanding.csproj">
-      <Project>{98589B69-ADBD-4798-B85B-0A4C6E5A6278}</Project>
-      <Name>Haep.AOP.ErrorHanding</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\AOP\Haep.AOP.Logging\Haep.AOP.Logging.csproj">
-      <Project>{9998B8BB-F17B-42FC-8599-B4D653D5F7AE}</Project>
-      <Name>Haep.AOP.Logging</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\API\WebAPI\WebAPI.csproj">
-      <Project>{f2f466f9-4e49-4bb6-b6e7-4a75e8c73e8a}</Project>
-      <Name>WebAPI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\Haep.Core\Haep.Core.csproj">
-      <Project>{EE5DE8A3-83F2-44BD-B3F7-51626B069D98}</Project>
-      <Name>Haep.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Configs\Autofac.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
